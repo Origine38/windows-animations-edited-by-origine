@@ -43,16 +43,29 @@
 ---
 &nbsp;
 
-# ✨ Edited Edition — New Animation Previews
+# ✨ Edited Edition — Custom Animation Previews
 
-| Animation | Preview |
-| --- | --- |
-| **Genie — Dynamic Taskbar Target** | ![Genie taskbar targeting](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/genie_dynamic_taskbar.gif) |
-| **Explorer — Acrylic Genie** | ![Transparent Explorer Genie](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/explorer_acrylic_genie.gif) |
-| **Expanded Win32 Close Support** | ![Win32 close effects](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/windows_utilities_close.gif) |
-| **Windows Hosted Apps — Close Effects** | ![Hosted application close](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/hosted_windows_close.gif) |
+These screen recordings retain the complete taskbar, with personal desktop shortcuts hidden for privacy. GIF quality is limited to a 256-color palette.
 
-These previews come from the tested personal setup and may differ on other systems.
+### Genie — dynamic taskbar targeting and closing
+
+![Genie — dynamic taskbar targeting and closing](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/genie_dynamic_taskbar.gif)
+
+### File Explorer — acrylic Genie minimize and restore
+
+![File Explorer — acrylic Genie minimize and restore](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/explorer_acrylic_genie.gif)
+
+### File Explorer — no residual background from a previous window
+
+![File Explorer — no residual background from a previous window](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/explorer_no_residual_background.gif)
+
+### Hosted Windows applications — Settings and Microsoft Store closing
+
+![Hosted Windows applications — Settings and Microsoft Store closing](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/hosted_windows_close.gif)
+
+### More desktop software — closing animation showcase
+
+![More desktop software — closing animation showcase](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/software_close_showcase.gif)
 
 ---
 
