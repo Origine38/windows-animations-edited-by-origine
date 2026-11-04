@@ -10,9 +10,9 @@ An independent edited version of **[Windows Animations](https://windhawk.net/mod
 
 ## Custom animation previews
 
-Higher-resolution GIFs are shown **one per row** for better readability. The images will update once the new files have been uploaded to the `assets/` folder. The same previews are also referenced in the mod's **Details** page, above ReDrag's original gallery.
+High-resolution, full-desktop GIF demonstrations are shown **one per row**, with personal desktop shortcuts removed and the taskbar preserved. The matching GIFs appear in the mod's **Details** page above ReDrag's original animation gallery. Upload the updated files to `assets/` to refresh the previews.
 
-### Genie — dynamic taskbar button targeting
+### Genie — dynamic taskbar button targeting and closing
 
 ![Genie targets the correct taskbar button](assets/genie_dynamic_taskbar.gif)
 
@@ -23,10 +23,6 @@ Higher-resolution GIFs are shown **one per row** for better readability. The ima
 ### File Explorer — no residual background from another window
 
 ![File Explorer without captured background from the previously active application](assets/explorer_no_residual_background.gif)
-
-### Windows utilities — animated closing
-
-![Windows utilities close animation](assets/windows_utilities_close.gif)
 
 ### Hosted Windows applications — experimental closing
 
