@@ -10,7 +10,7 @@ An independent edited version of **[Windows Animations](https://windhawk.net/mod
 
 ## Custom animation previews
 
-The four GIF demonstrations appear in the mod's **Details** page above the original ReDrag animation gallery.
+The four GIF demonstrations are referenced in the mod's **Details** page above the original ReDrag gallery. **Their image files still need to be uploaded to `assets/` before those previews become visible.** See [assets/README.md](assets/README.md).
 
 | Dynamic Genie taskbar targeting | Explorer acrylic Genie |
 | --- | --- |
