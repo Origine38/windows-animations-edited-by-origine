@@ -10,15 +10,31 @@ An independent edited version of **[Windows Animations](https://windhawk.net/mod
 
 ## Custom animation previews
 
-The four GIF demonstrations are referenced in the mod's **Details** page above the original ReDrag gallery. **Their image files still need to be uploaded to `assets/` before those previews become visible.** See [assets/README.md](assets/README.md).
+Higher-resolution GIFs are shown **one per row** for better readability. The images will update once the new files have been uploaded to the `assets/` folder. The same previews are also referenced in the mod's **Details** page, above ReDrag's original gallery.
 
-| Dynamic Genie taskbar targeting | Explorer acrylic Genie |
-| --- | --- |
-| ![Genie](assets/genie_dynamic_taskbar.gif) | ![Explorer](assets/explorer_acrylic_genie.gif) |
+### Genie — dynamic taskbar button targeting
 
-| Expanded Win32 close support | Hosted Windows application closing |
-| --- | --- |
-| ![Win32 closing](assets/windows_utilities_close.gif) | ![Hosted app closing](assets/hosted_windows_close.gif) |
+![Genie targets the correct taskbar button](assets/genie_dynamic_taskbar.gif)
+
+### File Explorer — acrylic Genie minimize and restore
+
+![File Explorer acrylic minimize and restore](assets/explorer_acrylic_genie.gif)
+
+### File Explorer — no residual background from another window
+
+![File Explorer without captured background from the previously active application](assets/explorer_no_residual_background.gif)
+
+### Windows utilities — animated closing
+
+![Windows utilities close animation](assets/windows_utilities_close.gif)
+
+### Hosted Windows applications — experimental closing
+
+![Hosted Windows applications closing](assets/hosted_windows_close.gif)
+
+### More desktop software — closing animation showcase
+
+![Multiple desktop applications closing](assets/software_close_showcase.gif)
 
 ## Improvements over the original mod
 
