@@ -33,7 +33,7 @@
 /*
 # Windows Animations
 > ## ⚠️ **`PLEASE READ THESE NOTES:`**
-> 🟢 **Edited edition — recommended for users of Translucent Windows, Explorer Styler and StartAllBack. Compatibility without these mods has not been verified.**
+> 🟢 **Edited edition — Genie taskbar targeting has been tested across different taskbar styles. Translucent Windows and Explorer Styler are optional; acrylic Explorer corrections are most relevant with Explorer Styler.**
 >
 > * **Packaged & System Apps:** In this edited edition, Settings, Calculator, Microsoft Store and some other hosted applications can play close effects. A small visual jump may still occur; other protected or system-hosted windows may remain unsupported.
 > * **Browsers & Tray Apps:** Enable **"Animate windows hidden to the tray"** if you want close animations for apps such as Chrome, Edge, Discord, and Windhawk, because clicking the 'X' button may only hide their window or leave the app running instead of actually closing it.
@@ -43,15 +43,27 @@
 ---
 &nbsp;
 
+# 📝 Edited Edition — Changelog (1.6.21)
+
+- **Dynamic Genie targeting:** the minimize effect follows the correct taskbar button, including after reordering.
+- **File Explorer acrylic:** reduced residual background artifacts and improved maximized-window handling; restore uses a short 75 ms handoff.
+- **Closing animations:** expanded support for desktop applications and compatible Settings, Calculator and Microsoft Store windows.
+- **Known limitations:** a brief visual jump can remain with some hosted Windows applications; `mmc.exe` is excluded for stability.
+- **Validation:** successfully compiled and tested in Windhawk by Origine38 on the original system. Other setups may behave differently.
+
+**[Full development changelog on GitHub](https://github.com/Origine38/windows-animations-edited-by-origine/blob/main/CHANGELOG.md)**
+
+---
+
 # ✨ Edited Edition — Custom Animation Previews
 
 These screen recordings retain the complete taskbar, with personal desktop shortcuts hidden for privacy. GIF quality is limited to a 256-color palette.
 
-### Genie — dynamic taskbar targeting and closing
+### Genie — dynamic taskbar targeting
 
 ![Genie — dynamic taskbar targeting and closing](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/genie_dynamic_taskbar.gif)
 
-### File Explorer — acrylic Genie minimize and restore
+### File Explorer — acrylic Genie minimize, restore and closing
 
 ![File Explorer — acrylic Genie minimize and restore](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/explorer_acrylic_genie.gif)
 
@@ -59,13 +71,9 @@ These screen recordings retain the complete taskbar, with personal desktop short
 
 ![File Explorer — no residual background from a previous window](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/explorer_no_residual_background.gif)
 
-### Hosted Windows applications — Settings and Microsoft Store closing
+### Windows applications — closing animations
 
 ![Hosted Windows applications — Settings and Microsoft Store closing](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/hosted_windows_close.gif)
-
-### More desktop software — closing animation showcase
-
-![More desktop software — closing animation showcase](https://raw.githubusercontent.com/Origine38/windows-animations-edited-by-origine/main/assets/software_close_showcase.gif)
 
 ---
 
