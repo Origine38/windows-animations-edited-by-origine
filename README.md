@@ -10,7 +10,7 @@ An independent edited version of **[Windows Animations](https://windhawk.net/mod
 
 ## Custom animation previews
 
-Four full-desktop demonstrations are shown **one per row**, preserving the taskbar and the natural speed of the animations. The matching GIFs also appear in the mod's **Details** page above ReDrag's original animation gallery.
+The GIFs below show the animations in action across different applications and window scenarios, from Genie minimization and File Explorer transitions to closing effects. These previews also appear on the mod's **Details** page, above ReDrag's original animation gallery.
 
 ### Genie — dynamic taskbar button targeting
 
