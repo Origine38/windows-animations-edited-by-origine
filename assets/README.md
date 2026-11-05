@@ -1,16 +1,14 @@
-# GIF previews — upload pending
+# GIF previews — edited edition v1.6.21
 
-The edited mod includes four additional GIF image references above the original ReDrag gallery. The animation files must be uploaded to this directory under these exact names before the new previews can render in Windhawk.
+The four official demonstration GIFs for this edited edition belong in this `assets/` directory.
 
-| File | Demo |
+| Filename | Demonstration |
 | --- | --- |
-| `genie_dynamic_taskbar.gif` | Genie minimization targeting the actual taskbar button |
-| `explorer_acrylic_genie.gif` | File Explorer acrylic/Genie visual behavior |
-| `windows_utilities_close.gif` | Extended window close animations |
-| `hosted_windows_close.gif` | Hosted modern Windows app close animations |
+| `genie_dynamic_taskbar.gif` | Genie minimizes toward the correct taskbar button |
+| `explorer_acrylic_genie.gif` | File Explorer Genie minimize/restore and closing |
+| `explorer_no_residual_background.gif` | File Explorer acrylic residual-background correction |
+| `hosted_windows_close.gif` | Closing animations for compatible Windows applications |
 
-**Current status:** the GIF binaries have not yet been transferred to GitHub. Their links will show as broken until this step is completed. The files are available in the companion ZIP generated for this project.
+The refreshed files were prepared from four user-provided videos, retaining their original playback speed and excluding OBS start/stop portions. **Upload the four new files to this folder, replacing the existing files with the same names.** The old versions are intentionally kept here until the replacements are uploaded to avoid broken image links.
 
-To complete the upload using GitHub's web interface: open this folder, select **Add file → Upload files**, and upload only the four GIFs named above. Commit the changes to the `main` branch. The URLs already present in the Windhawk mod's Details page will then resolve automatically.
-
-Do not change the mod's C++ animation engine when uploading previews.
+The original ReDrag animation gallery stays unchanged. This repository's source code embeds the same four preview URLs in Windhawk's Details section.
