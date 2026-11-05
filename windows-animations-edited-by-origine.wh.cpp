@@ -387,7 +387,7 @@ Special thanks to [@Abdullah Masood](https://github.com/Abdullah-Masood-05) for 
       Désactiver si des doubles fermetures ou des fenêtres bloquées apparaissent.
   - hide_as_close: true
     $name: Animate windows hidden to the tray
-    $description: Disabled by default. Enable to animate apps such as Discord, Steam, and Telegram when
+    $description: Enabled by default. Animates apps such as Discord, Steam, and Telegram when
       they hide their window instead of closing it. This can also animate splash screens, such as the
       Discord updater, or windows hidden automatically by an app, such as the Google Chrome profile picker.
       Brief Tauri show/hide normalization during startup or tray restoration is excluded from close animation
