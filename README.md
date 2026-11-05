@@ -35,7 +35,7 @@ Four full-desktop demonstrations are shown **one per row**, preserving the taskb
 - A fast **75 ms Explorer restoration handoff** avoids unresolved acrylic artifacts from a full-length Genie restore.
 - Closing animations work across all tested third-party applications on the original setup and many Windows utilities.
 - Experimental hosted-window close support works on Settings, Calculator and Microsoft Store, with a slight remaining visual jump on some closes.
-- Original `mmc.exe` exclusion is preserved to avoid instability in Services and Task Scheduler.
+- The original `mmc.exe` exclusion, introduced by ReDrag in the original mod, has been retained to help prevent instability in applications that rely on it.
 
 See [CHANGELOG.md](CHANGELOG.md) for the complete development summary and limitations.
 
