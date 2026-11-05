@@ -33,7 +33,7 @@
 /*
 # Windows Animations
 > ## ⚠️ **`PLEASE READ THESE NOTES:`**
-> 🟢 **Edited edition — Genie taskbar targeting has been tested across different taskbar styles. Translucent Windows and Explorer Styler are optional; acrylic Explorer corrections are most relevant with Explorer Styler.**
+> - 🟢 **Edited edition — Genie taskbar targeting has been tested across different taskbar styles. Translucent Windows and Explorer Styler are optional; acrylic Explorer corrections are most relevant with Explorer Styler.**
 >
 > * **Packaged & System Apps:** In this edited edition, Settings, Calculator, Microsoft Store and some other hosted applications can play close effects. A small visual jump may still occur; other protected or system-hosted windows may remain unsupported.
 > * **Browsers & Tray Apps:** Enable **"Animate windows hidden to the tray"** if you want close animations for apps such as Chrome, Edge, Discord, and Windhawk, because clicking the 'X' button may only hide their window or leave the app running instead of actually closing it.
@@ -56,8 +56,6 @@
 ---
 
 # ✨ Edited Edition — Custom Animation Previews
-
-These screen recordings retain the complete taskbar, with personal desktop shortcuts hidden for privacy. GIF quality is limited to a 256-color palette.
 
 ### Genie — dynamic taskbar targeting
 
