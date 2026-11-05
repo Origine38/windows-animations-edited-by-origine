@@ -43,6 +43,8 @@
 ---
 &nbsp;
 
+**Please keep the currently recommended settings enabled. Disable only the original ReDrag animation effects you do not wish to use.**
+
 # 📝 Edited Edition — Changelog (1.6.21)
 
 - **Dynamic Genie targeting:** the minimize effect follows the correct taskbar button, including after reordering.
@@ -167,6 +169,8 @@ Lower frame cost is better. Values in parentheses are speedups over version
 # ℹ️ More Information
 
 ## 📝 Credits
+Special thanks to [ReDrag](https://github.com/redrag2105), the original creator of [Windows Animations](https://windhawk.net/mods/windows-animations), whose work forms the foundation of this edited edition.
+
 Special thanks to [@Abdullah Masood](https://github.com/Abdullah-Masood-05) for the Classic Genie animation from his [macOS Minimize Animation](https://windhawk.net/mods/macos-minimize-animation) mod.
 
 ## 💖 Support Windows Animations
@@ -324,8 +328,8 @@ Special thanks to [@Abdullah Masood](https://github.com/Abdullah-Masood-05) for 
       le CPU sur tout ce groupe d’animations.
   $name: Minimize, restore, and launch
   $name:fr-FR: Réduction, restauration et ouverture
-  $description: Configure animations for minimizing, restoring, and opening windows.
-  $description:fr-FR: Paramètres des animations de réduction, de restauration et d’ouverture.
+  $description: Configure animations for minimizing, restoring, and opening windows. Keep the recommended settings enabled; disable only the original ReDrag animation effects that you do not want to use.
+  $description:fr-FR: Conservez les réglages actuels activés. Désactivez uniquement les effets d’animation d’origine de ReDrag que vous ne souhaitez pas utiliser.
 - close:
   - close_animation: true
     $name: Animate closing
@@ -353,27 +357,21 @@ Special thanks to [@Abdullah Masood](https://github.com/Abdullah-Masood-05) for 
     - explorer: Explorateur uniquement (recommandé)
     - all: Toutes les applications éligibles
   - modern_apps_close: test-smooth
-    $name: Modern Windows apps — hosted-window close test
-    $description: 'Off: leave hosted apps unchanged. Diagnose: log hide, window-position and destroy messages
-      inside ApplicationFrameHost.exe (requires performance telemetry). Test: try a close effect before a
-      foreground visible ApplicationFrameWindow is hidden (WM_SHOWWINDOW, false), or on WM_CLOSE / SC_CLOSE.
-      Experimental: a temporary hide can be mistaken for closing. Test = legacy (DWM cloak); Smooth test = first ghost frame, then native hide. Explorer/MMC/Genie/MSAA unchanged.'
-    $name:fr-FR: Applications Windows modernes — fermeture hébergée
-    $description:fr-FR: 'Désactivé : aucune intervention. Diagnostic : journaliser les messages de masquage,
-      positionnement et destruction dans ApplicationFrameHost.exe (activer le journal de performances).
-      Essai : tenter une animation avant le masquage WM_SHOWWINDOW d’une fenêtre hôte visible au premier plan,
-      ou sur WM_CLOSE / SC_CLOSE. Expérimental : un masquage temporaire peut déclencher un faux effet.
-      Ancien essai : masquage DWM du cadre. Nouvel essai fluide : laisser la fermeture Windows masquer le cadre après la première image de l’effet. Un masquage temporaire reste susceptible d’être animé. Explorateur/MMC/Genie/MSAA inchangés.'
+    $name: Modern Windows apps — closing animations
+    $description: 'Recommended by default: animate the closing of compatible modern Windows applications
+      using the anti-flicker native handoff. Disabled: no extra close animation for hosted applications
+      such as Settings, Microsoft Store or Calculator. Other animation settings are unaffected.'
+    $name:fr-FR: Applications Windows modernes — animations de fermeture
+    $description:fr-FR: 'Recommandé par défaut : animer la fermeture des applications Windows modernes
+      compatibles avec le relais natif anti-clignotement. Désactivé : aucune animation de fermeture
+      supplémentaire pour les applications hébergées telles que Paramètres, Microsoft Store ou Calculatrice.
+      Les autres paramètres d’animation restent inchangés.'
     $options:
-    - 'off': Off (recommended)
-    - diagnose: Diagnose only
-    - test: Test (legacy DWM cloak; v1.6.20)
-    - test-smooth: Test smooth native handoff (first frame; experimental)
+    - test-smooth: Anti-flicker test (strongly recommended by default)
+    - 'off': Disabled — no hosted Windows app closing animations (Settings, Microsoft Store, etc.)
     $options:fr-FR:
-    - 'off': Désactivé (recommandé)
-    - diagnose: Diagnostic seulement
-    - test: Essai classique (masquage DWM ; v1.6.20)
-    - test-smooth: Essai anti-clignotement (relais natif après première image)
+    - test-smooth: Essai anti-clignotement (fortement recommandé par défaut)
+    - 'off': Désactivé — aucune animation de fermeture (Paramètres, Microsoft Store, etc.)
   - explorer_early_close: true
     $name: 'File Explorer: animate close before hiding'
     $description: Capture Explorer folder windows on WM_CLOSE / SC_CLOSE before they disappear, leaving
